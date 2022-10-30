@@ -4,4 +4,29 @@ html {
 
 .header {
     background-color: rgba(0,0,0,.1);
+    width: 100%;
+    display: flex;  
+}
+
+.logo {
+    width: 10%;
+    padding: 1%;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%
+}
+
+.home-bg {
+    width: 100%;
+    background-size: cover;
 }
