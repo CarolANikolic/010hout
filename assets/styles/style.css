@@ -2,6 +2,7 @@ html {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+/* Header style */
 .header {
     background-color: rgba(0,0,0,.1);
     width: 100%;
