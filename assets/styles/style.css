@@ -8,8 +8,9 @@ html {
     display: flex;
     background-size: cover;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
+
 
 .hero-header {
     width: 100%;
@@ -27,7 +28,8 @@ html {
     position: absolute;
      width: 10%; 
     left: 0;
-    top: 0; 
+    top: 0;
+    z-index: 0; 
 }
 
 
