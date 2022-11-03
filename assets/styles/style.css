@@ -1,5 +1,6 @@
 html {
     font-family: 'IBM Plex Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .hero {
@@ -8,7 +9,6 @@ html {
     display: flex;
     background-size: cover;
     position: relative;
-    /* z-index: 1; */
 }
 
 
@@ -16,22 +16,19 @@ html {
     width: 100%;
     height: 10%;
     position: relative;
-    background: #B27938;
+    background: #a9845a;
     mix-blend-mode: screen;
     color: #000000;
     font-size: 2em;
     font-weight: 600;
 }
 
-
 .logo {
     position: absolute;
      width: 10%; 
     left: 0;
     top: 0;
-    z-index: 0; 
 }
-
 
 .itens-header {
     display: flex;
@@ -41,4 +38,133 @@ html {
 
 .itens-header li {
     padding: 4%;
-}  
+} 
+
+.services {
+    width: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10% 5% 10% 5%;
+    font-size: 1.5em;
+    background: #faf7f4;
+}
+
+.services h2 {
+    width: 100%;
+    padding-bottom: 3%;
+    font-weight: 600;
+}
+
+.services p {
+    width: 100%;
+    font-weight: 200;
+}
+
+.title-values {
+    width: 100%;
+    padding: 5%;
+    font-size: 2em;
+    text-align: center;
+    background: radial-gradient(circle, rgba(246,237,229,1) 0%, rgba(255,255,255,1) 100%);
+} 
+
+.title-values::before {
+    content: open-quote;
+    font-size: 2.2em;
+}
+
+.home-values {
+    width: 100%;
+    display: flex;  
+}
+
+.container-values {
+    width: 100%;
+    box-sizing: border-box;
+    background: radial-gradient(circle, rgba(246,237,229,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.title-values::after {
+    content: close-quote;
+    font-size: 2.2em;
+}
+
+
+.values {
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.img-home {
+    width: 40%;
+    padding: 3%;
+
+}
+
+.services-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.services-text h4 {
+    padding-bottom: 30%;
+    position: relative;
+    font-size: 1.5em;
+}
+
+.services-text h4::after {
+    content: '';
+    position: absolute;
+    background: #6D6351;
+    width: 60%;
+    height: 3px;
+    bottom: 70%;
+    left: 20%;
+}
+
+.services-text p {
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    background: #262525;
+    color: #ffffff;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+}
+
+.address {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 3%;
+}
+
+.copyright {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.copyright img {
+    width: 3%;
+    vertical-align: middle;
+}
+
+
+
+
+
