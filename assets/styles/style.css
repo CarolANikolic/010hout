@@ -1,6 +1,5 @@
 html {
     font-family: 'IBM Plex Sans', sans-serif;
-    overflow-x: hidden;
 }
 
 .hero {
@@ -8,9 +7,7 @@ html {
     background-image: url('../images/hero-home.jpg');
     display: flex;
     background-size: cover;
-    position: relative;
 }
-
 
 .hero-header {
     width: 100%;
@@ -34,10 +31,22 @@ html {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    text-decoration: none;
 }
 
 .itens-header li {
     padding: 4%;
+} 
+
+.itens-header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.itens-header li:hover {
+    cursor: pointer;
+    color:#ffffff;
+    transform: scale(1.2);
 } 
 
 .services {
@@ -46,15 +55,17 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10% 5% 10% 5%;
     font-size: 1.5em;
+    padding: 10% 5% 10% 5%;
     background: #faf7f4;
 }
 
 .services h2 {
     width: 100%;
+    font-size: 1.5em;
     padding-bottom: 3%;
-    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-shadow: 0 2px 1px rgb(77, 75, 68);
 }
 
 .services p {
@@ -63,7 +74,7 @@ html {
 }
 
 .title-values {
-    width: 100%;
+    /* width: 100%; */
     padding: 5%;
     font-size: 2em;
     text-align: center;
@@ -82,7 +93,6 @@ html {
 
 .container-values {
     width: 100%;
-    box-sizing: border-box;
     background: radial-gradient(circle, rgba(246,237,229,1) 0%, rgba(255,255,255,1) 100%);
 }
 
@@ -102,7 +112,6 @@ html {
 .img-home {
     width: 40%;
     padding: 3%;
-
 }
 
 .services-text {
@@ -126,7 +135,7 @@ html {
     width: 60%;
     height: 3px;
     bottom: 70%;
-    left: 20%;
+    left: 20%;    
 }
 
 .services-text p {
@@ -135,8 +144,36 @@ html {
     font-weight: 200;
 }
 
-.footer {
+.container-home-bt {
     width: 100%;
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    justify-content: center;
+}
+
+.contact-home-bt {
+    padding: 8px;
+    border-radius: 5px;
+    width: 15%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    background: #ee8f22;
+    border-style: none;
+    color: #262525;
+    transition: 0.2s all;
+}
+
+.contact-home-bt:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-color: #262525;
+}
+
+
+.footer {
+    /* width: 100%; */
     display: flex;
     background: #262525;
     color: #ffffff;
@@ -151,6 +188,7 @@ html {
     text-decoration: none;
     padding: 3%;
 }
+
 
 .copyright {
     width: 100%;

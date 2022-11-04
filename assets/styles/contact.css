@@ -1,0 +1,36 @@
+/* Defining hero image  */
+.hero-contact {
+    min-height: 100vh;
+    background-image: url('../images/contact-hero.jpg');
+    display: flex;
+    background-size: cover;
+}
+
+.container-call-action {
+    background: radial-gradient(circle, rgba(246,237,229,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 10%;
+}
+
+.container-call-action h3 {
+    font-size: 2em;
+}
+
+.contact {
+    display: flex;
+    background: #FBF8F6;
+}
+
+.contact-info {
+    padding: 10%;
+}
+
+.contact-info img {
+    width: 30%;
+    position: relative;
+}
+
+.contact-info a {
+    padding-left: 10%;
+    text-decoration: none;
+    color: inherit;
+}

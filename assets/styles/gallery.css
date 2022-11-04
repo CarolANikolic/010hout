@@ -1,0 +1,93 @@
+/* Defining hero image  */
+.hero-gallery {
+    min-height: 100vh;
+    background-image: url('../images/gallery-hero.png');
+    display: flex;
+    background-size: cover;
+}
+
+.work-gallery {
+    width: 100%;
+}
+
+.container-gallery {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-text {
+    padding: 10%;
+    font-size: 1.5em;
+    background: radial-gradient(circle, rgba(246,237,229,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.gallery-text h4 {
+    font-size: 1.5em;
+    padding-bottom: 3%;
+    position: relative;
+}
+
+.gallery-text h4::after {
+    content: '';
+    position: absolute;
+    background: #6D6351;
+    height: 3px;
+    bottom: 20%;
+    left: 0; 
+}
+
+.gl-title-one::after {
+    width: 35%;
+}
+
+.gl-title-two::after {
+    width: 26%;
+}
+
+.gl-title-three::after {
+    width: 29%;
+}
+
+.gallery-text p {
+    font-weight: 200;
+}
+
+.container-gallery-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(246,237,229,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.img-gallery {
+    width: 45%;
+}
+
+.container-gallery-bt {
+    width: 100%;
+    display: flex;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(246,237,229,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.contact-gallery-bt {
+    padding: 8px;
+    border-radius: 5px;
+    width: 15%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    background: #ee8f22;
+    border-style: none;
+    color: #262525;
+    transition: 0.2s all;
+}
+
+.contact-gallery-bt:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-color: #262525;
+}
