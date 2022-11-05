@@ -4,6 +4,19 @@
     background-image: url('../images/contact-hero.jpg');
     display: flex;
     background-size: cover;
+    position: relative;
+}
+
+.hero-contact::after {
+    content: 'Interested in working together?';
+    position: absolute;
+    left: 10%;
+    bottom: 45%;
+    font-size: 2em;
+    color: #262525;
+    background-color: #ffffff;
+    opacity: 0.8;
+    font-weight: 200;
 }
 
 .container-call-action {

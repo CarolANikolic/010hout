@@ -4,6 +4,19 @@
     background-image: url('../images/gallery-hero.png');
     display: flex;
     background-size: cover;
+    position: relative;
+}
+
+.hero-gallery::after {
+    content: 'We find greatness in delivering quality service';
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    font-size: 2em;
+    color: #262525;
+    background-color: #ffffff;
+    opacity: 0.8;
+    font-weight: 200;
 }
 
 .work-gallery {
@@ -46,6 +59,10 @@
 }
 
 .gl-title-three::after {
+    width: 30%;
+}
+
+.gl-title-four::after {
     width: 29%;
 }
 

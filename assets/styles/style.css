@@ -7,6 +7,19 @@ html {
     background-image: url('../images/hero-home.jpg');
     display: flex;
     background-size: cover;
+    position: relative;
+}
+
+.hero::after {
+    content: 'Carpentry to make it last';
+    position: absolute;
+    left: 10%;
+    bottom: 45%;
+    font-size: 2em;
+    color: #262525;
+    background-color: #ffffff;
+    opacity: 0.8;
+    font-weight: 200;
 }
 
 .hero-header {
