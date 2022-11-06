@@ -1,4 +1,4 @@
-# 010HOUT  <img src=".assets/images/logo.png" width="15%" alt="logo">
+# 010HOUT  <img src="/assets/images/logo.png" width="15%" alt="logo">
 
 ## A Carpentry Service Website
 
@@ -10,33 +10,33 @@ The intention of this projected was to test my skills in HTML and CSS, more spec
 :warning: Please, open in a computer. The mobile version of this project will soon be available.
 
 <div align="center">
-  <img src=".assets/images/screenshots/screen-hero-home.png" width=50% alt="Desktop view of 010HOUT home page">
+  <img src="/assets/images/screenshots/screen-hero-home.png" width="50%" alt="Desktop view of 010HOUT home page">
 </div>
 
 <div align="center">
-  <img src=".assets/images/screenshots/screen-hero-gallery.png" width=50% alt="Desktop view of 010HOUT gallery page">
+  <img src="/assets/images/screenshots/screen-hero-gallery.png" width="50%" alt="Desktop view of 010HOUT gallery page">
 </div>
 
 <div align="center">
-  <img src=".assets/images/screenshots/screen-hero-contact.png" width=50% alt="Desktop view of 010HOUT contact page">
+  <img src="/assets/images/screenshots/screen-hero-contact.png" width="50%" alt="Desktop view of 010HOUT contact page">
 </div>
 
 ## :computer: Gallery view of services provided
 
 <div align="center">
-  <img src=".assets/images/screenshots/screen-ship.png" width=50% alt="Desktop view of service for ships">
+  <img src="/assets/images/screenshots/screen-ship.png" width="50%" alt="Desktop view of service for ships">
 </div>
 
 <div align="center">
-  <img src=".assets/images/screenshots/screen-furtunure.png" width=50% alt="Desktop view of services for home furtunure">
+  <img src="/assets/images/screenshots/screen-furnuture.png" width="50% alt="Desktop view of services for home furtunure">
 </div>
 
 <div align="center">
-  <img src=".assets/images/screenshots s/screen-renovation.png" width=50% alt="Desktop view of services for renovations">
+  <img src="/assets/images/screenshots/screen-renovations.png" width="50%" alt="Desktop view of services for renovations">
 </div>
 
 <div align="center">
-  <img src=".assets/images/screenshots/screen-eco.png" width=50% alt="Desktop view of eco-items">
+  <img src="/assets/images/screenshots/screen-eco.png" width="50%" alt="Desktop view of eco-items">
 </div>
 
 ## Learnings
